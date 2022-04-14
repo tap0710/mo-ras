@@ -30,7 +30,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 //---------------------------　必須設定　必ず設定してください　-----------------------
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "https://eor.roselia-lv.com";
+$site_top = "https://mo.raise-a-suilen-lv.com";
 
 //管理者のメールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
 $to = "bmo_lv@bushiroad.com";
@@ -53,7 +53,7 @@ $Referer_check = 1;
 
 //リファラチェックを「する」場合のドメイン ※設置するサイトのドメインを指定して下さい。
 //もしこの設定が間違っている場合は送信テストですぐに気付けます。
-$Referer_check_domain = "https://eor.roselia-lv.com";
+$Referer_check_domain = "https://mo.raise-a-suilen-lv.comm";
 
 /*セッションによるワンタイムトークン（CSRF対策、及びスパム防止）(する=1, しない=0)
 ※ただし、この機能を使う場合は↓の送信確認画面の表示が必須です。（デフォルトではON（1）になっています）
@@ -71,10 +71,10 @@ $useToken = 0;
 $userMail = 1;
 
 // Bccで送るメールアドレス(複数指定する場合は「,」で区切ってください 例 $BccMail = "aa@aa.aa,bb@bb.bb";)
-$BccMail = "info@roselia-lv.com";
+$BccMail = "info@raise-a-suilen-lv.com";
 
 // 管理者宛に送信されるメールのタイトル（件名）
-$subject = "Roselia ｢Episode of Roselia｣ ライブ・ビューイング WEBからのお問い合わせ";
+$subject = "RAS x Morfonica「Mythology Chapter 2 」RAS「OVERKILL」ライブ・ビューイング WEBからのお問い合わせ";
 
 // 送信確認画面の表示(する=1, しない=0)
 $confirmDsp = 0;
@@ -105,7 +105,7 @@ $require = array('お名前','Email','お問い合わせ内容');
 $remail = 1;
 
 //自動返信メールの送信者欄に表示される名前　※あなたの名前や会社名など（もし自動返信メールの送信者名が文字化けする場合ここは空にしてください）
-$refrom_name = "Roselia単独ライブ｢Episode of Roselia｣ライブ・ビューイング WEB運営事務局 ";
+$refrom_name = "RAS x Morfonica「Mythology Chapter 2 」RAS「OVERKILL」ライブ・ビューイング WEB運営事務局 ";
 
 // 差出人に送信確認メールを送る場合のメールのタイトル（上記で1を設定した場合のみ）
 $re_subject = "送信ありがとうございました";
@@ -132,8 +132,8 @@ $mailFooterDsp = 1;
 $mailSignature = <<< FOOTER
 
 ──────────────────────
-Roselia単独ライブ｢Episode of Roselia｣ライブ・ビューイング運営事務局
-https://eor.roselia-lv.com
+RAS x Morfonica「Mythology Chapter 2 」RAS「OVERKILL」ライブ・ビューイング 運営事務局
+https://mo.raise-a-suilen-lv.com
 bmo_lv@bushiroad.com
 ──────────────────────
 
