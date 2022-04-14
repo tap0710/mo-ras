@@ -641,7 +641,7 @@ function refererCheck($Referer_check,$Referer_check_domain){
 	}
 }
 function copyright(){
-	echo '<p style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none">- Roselia単独ライブ｢Episode of Roselia｣ライブ・ビューイング運営事務局 -</p>';
+	echo '<p style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none">- RAS x Morfonica「Mythology Chapter 2 」RAS「OVERKILL」ライブ・ビューイング WEB運営事務局 -</p>';
 }
 //----------------------------------------------------------------------
 //  関数定義(END)
